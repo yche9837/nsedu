@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next Step Education (NS EDU) Website
+
+**Version:** v1
+
+Website for Next Step Education (方法补习班) - A private education specialist with over 15 years of experience in Mathematics, English, Thinking Skills, and Mathematical Olympiads.
+
+**Website:** [nsedu.com.au](https://nsedu.com.au)
+
+## About
+
+Next Step Education is a private education specialist providing comprehensive tutoring services for students from Year 1 through Junior High School. We specialise in:
+
+- Opportunity Class (OC) preparation
+- Selective School preparation
+- Private scholarship preparation
+- Mathematical Olympiads and competitions
+- Primary and Junior High School support
+
+## Tech Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS v4
+- **Font:** Helvetica Neue
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+ 
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yche9837/nsedu.git
+cd nsedu
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+app/
+  ├── about/          # About Us page
+  ├── classes/        # Classes information page
+  ├── contact/        # Contact page with form
+  ├── resources/      # Educational resources page
+  ├── api/
+  │   └── contact/    # Contact form API endpoint
+  ├── layout.tsx      # Root layout with Navigation & Footer
+  └── page.tsx        # Homepage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+components/
+  ├── Navigation.tsx  # Main navigation component
+  └── Footer.tsx      # Footer component
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+public/
+  └── images/        # Logo and homepage images
+```
 
-## Deploy on Vercel
+## Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Homepage** with About Us, Classes overview, Resources, and Contact sections
+- **About Us** page with company information
+- **Classes** page detailing all 5 main class categories:
+  - Junior Primary Preparation
+  - Primary Preparation
+  - OC Preparation
+  - Selective + Scholarships Preparation
+  - Junior High Preparation
+- **Resources** page with educational links and study materials
+- **Contact** page with functional contact form
+- **Responsive design** optimized for all devices
+- **Custom animations** and modern UI
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+
+## Future Versions
+
+### Version 2 (Planned)
+
+- **Login System** - User authentication for students, parents, and administrators
+- **Student Information Management** - Database integration for student data
+- **Student Dashboard** - Personalized dashboard for students and parents
+- **User Roles** - Role-based access control (student, parent, admin)
+- **Database Setup** - PostgreSQL or MongoDB integration
+
+### Version 3 (Planned)
+
+- **Assessment Portal (NSeDucate)** - Online assessment and testing platform
+- **Enhanced Resources** - Resource library with access control
+- **Student Progress Tracking** - Track student performance and progress
+- **Assessment Management** - Create, manage, and grade assessments
+- **Integration with V2** - Seamless integration with authentication system
