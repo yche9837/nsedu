@@ -23,6 +23,24 @@ Next Step Education is a private education specialist providing comprehensive tu
 - **Styling:** Tailwind CSS v4
 - **Font:** Helvetica Neue
 
+## Screenshots (Version 1)
+
+### Homepage
+![Homepage](public/screenshots/homepage-v1.png)
+
+### About Us
+![About Us](public/screenshots/about-us-v1.png)
+
+### Classes
+![Classes](public/screenshots/classes-v1.png)
+
+### Resources
+![Resources](public/screenshots/resources-v1.png)
+
+### Contact Us
+![Contact Us](public/screenshots/contact-us-v1.png)
+
+
 ## Getting Started
 
 ### Prerequisites
