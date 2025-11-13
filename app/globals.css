@@ -8,7 +8,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-sans: "Helvetica Neue", Helvetica, Arial, "STKaiti", "ST 楷体", "KaiTi", "楷体", sans-serif;
   --font-mono: "Helvetica Neue", Helvetica, Arial, monospace;
 }
 
@@ -22,7 +22,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, "STKaiti", "ST 楷体", "KaiTi", "楷体", sans-serif;
 }
 
 /* Animations */
